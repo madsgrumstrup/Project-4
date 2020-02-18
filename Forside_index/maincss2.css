@@ -23,7 +23,7 @@ body {
 .navbar a {
     float: right;
     font-size: 1vw;
-    color: #830A0A;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -40,7 +40,7 @@ body {
     font-size: 1vw;  
     border: none;
     outline: none;
-    color: #830A0A;
+    color: white;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -50,7 +50,6 @@ body {
 .dropdown-content {
     display: none;
     position: fixed;
-    
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -58,7 +57,7 @@ body {
 
 .dropdown-content a {
     float: none;
-    color: #830A0A;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -66,8 +65,10 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    border-bottom: 2px solid white;
+    background-color: #;
 }
+
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -77,44 +78,57 @@ body {
     width: 11%;
     margin: 10px;
 }
-
-.billede{
+/*navbar slut*/
+.forsidebillede{
     margin: auto;
     position:inherit;
     width: 100%;
-    
-}
-/*navbar slut*/
-.infomation{
-    width: 100%;
-    overflow: hidden;
-    
 }
 
-.box1{
-    width: 50%;
-    height: 15.6vw;
-    float: left;
-    background-color: aqua;
+.hooverskrift{
+    position: absolute;
+    top: 15vw;
+    font-size: 1.8vw;
+    padding: 10px;
+    color: white;
+    margin-left: 2vw;
 }
 
-.box2{
-    width: 50%;
-    height: 15.6vw;
-    float: left;
-    background-color: blue;
+.hop{
+    font-size: 0.8vw;
+    padding-top: 1.5vw;
 }
 
-.box3{
-    width: 50%;
-    height: 15.6vw;
-    float: left;
+.hoknap{
+    padding: 12px 20px;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 15px;
+    display: inline-block;
+    margin-bottom: 15px;
+    transition: all .3s;
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+.hoknap:hover{
     background-color: white;
+    border: 2px solid black;
+    color: black;
 }
 
-.box4{
+/* Alt over er forsidebillede alt under er info */
+
+.infobilledeho{
     width: 50%;
-    height: 15.6vw;
-    float: left;
-    background-color: grey;
+}
+
+.hoinfocontainer{
+    
+}
+
+.infomation1{
+    display: flex;
+    flex-direction: row;
 }

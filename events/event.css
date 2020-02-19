@@ -13,7 +13,7 @@ body {
 /*navbar*/
 .navbar {
     overflow: hidden;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.09) 89%,rgba(0,0,0,0) 100%); 
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.09) 89%,rgba(0,0,0,0) 100%);
     position: fixed;
     padding-right: 37px;
     padding-top: 15px;
@@ -36,7 +36,7 @@ body {
 }
 
 .dropdown .dropbtn {
-    font-size: 1vw;  
+    font-size: 1vw;
     border: none;
     outline: none;
     color: white;
@@ -44,7 +44,7 @@ body {
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-}      
+}
 
 .dropdown-content {
     display: none;
@@ -85,7 +85,7 @@ body {
 .ev-flexbox{
   display: flex;
   flex-direction: row;
-    
+
 }
 
 .evimg{
@@ -116,10 +116,15 @@ body {
   height: 30vh;
 }
 
-.img-info{
-  font-size: 40px;
-  width: 20%;
-  height: 30vh;
+.img-info img{
+  width: 40vh;
+  height: 100%;
+  border: solid green 5px;
+}
+.evinfo p{
+  font-size: 18px;
   color: white;
+  height: auto;
   background-color: black;
+
 }

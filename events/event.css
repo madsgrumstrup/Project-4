@@ -1,3 +1,4 @@
+/*GLOBAL CSS START*/
 *{
   padding: 0;
   margin: 0;
@@ -74,5 +75,47 @@
     margin: auto;
     position:inherit;
     width: 100%;
+}
+/*GLOBAL CSS SLUT*/
+/*EGEN KODE TIL UDERSIDEN EVENTS*/
+/*BILLEDE OG KALENDER*/
+.ev-flexbox{
+  display: flex;
+  flex-direction: row;
+}
 
+.evimg{
+  font-size: 40px;
+  color: red;
+  background-color: green;
+  width: 60%;
+  height: 30vh;
+}
+.evkalender{
+  font-size: 4vh;
+  color: red;
+  background-color: blue;
+  width: 40%;
+  height: 30vh;
+}
+
+/*INFORMATIONSDELEN*/
+.evflex-content{
+  display: flex;
+}
+
+.evinfo{
+  font-size: 40px;
+  color: red;
+  background-color: yellow;
+  width: 80%;
+  height: 30vh;
+}
+
+.img-info{
+  font-size: 40px;
+  width: 20%;
+  height: 30vh;
+  color: white;
+  background-color: black;
 }

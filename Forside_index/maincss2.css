@@ -78,7 +78,7 @@ body {
     width: 12%;
     margin: 12px;
     position: relative;
-    padding-left: 22px;
+    padding-left: 1.5vw;
 }
 
 /*navbar slut*/
@@ -86,6 +86,16 @@ body {
     margin: auto;
     position:inherit;
     width: 100%;
+}
+
+.logolink{
+    
+    position: absolute;
+    top: 0;
+    left: 2%;
+    width: 10.5%;
+    height: 50%;
+    display: block;
 }
 
 .hooverskrift{
@@ -125,13 +135,24 @@ body {
 
 .infobilledeho{
     width: 50%;
+    position: inherit;
+    height: 50%;
 }
 
 .hoinfocontainer{
-    
+    margin: 5px;
 }
 
 .infomation1{
     display: flex;
     flex-direction: row;
+}
+
+.infomation2{
+    display: flex;
+    flex-direction: row;
+}
+
+.hoinfotext{
+    float: right;
 }

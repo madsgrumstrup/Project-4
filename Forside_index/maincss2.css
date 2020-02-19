@@ -15,9 +15,9 @@ body {
     overflow: hidden;
     background: linear-gradient(to bottom, rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.09) 89%,rgba(0,0,0,0) 100%); 
     position: fixed;
-    padding-left: 37.5px;
-    padding-right: 37.5px;
+    padding-right: 37px;
     padding-top: 15px;
+    
 }
 
 .navbar a {
@@ -75,9 +75,12 @@ body {
 }
 
 .logo{
-    width: 11%;
-    margin: 10px;
+    width: 12%;
+    margin: 12px;
+    position: relative;
+    padding-left: 22px;
 }
+
 /*navbar slut*/
 .forsidebillede{
     margin: auto;

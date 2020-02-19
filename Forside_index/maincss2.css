@@ -133,26 +133,78 @@ body {
 
 /* Alt over er forsidebillede alt under er info */
 
-.infobilledeho{
-    width: 50%;
+.hoinfocontainer {
+    width: 100%;
+    min-height: 55vw;
+    background-color: #f3f3f3;
+    z-index: 1;
     position: inherit;
-    height: 50%;
+    overflow: hidden;
 }
 
-.hoinfocontainer{
-    margin: 5px;
+.infomation1 {
+    width: 100%;
 }
 
-.infomation1{
-    display: flex;
-    flex-direction: row;
+.infomation1 .infobox1 {
+    background-color: #fff;
+    width: 50%;
+    height: 15vw;
+    float: left;
 }
 
-.infomation2{
-    display: flex;
-    flex-direction: row;
+.infomation1 .infobox1 .imghoinfo {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #f3f3f3;
+    background-size: cover;
+    background-position: center,center;
+    position: inherit;
 }
 
-.hoinfotext{
+.infomation1 .infobox1 .imghoinfo .imghoinfolink {
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.infomation1 .infobox1 .textboxinfo {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #fff;
+    padding: 1p;
+    position: inherit;
+}
+
+.infomation1 .infobox1 .textboxinfo span {
+    font-size: 1vw;
+    padding-left: 2%
+}
+
+.infomation1 .infobox1 .textboxinfo h3 {
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding-right: 15%;
+    padding-left: 2%
+}
+
+.infomation1 .infobox1 .textboxinfo a {
+    position: inherit;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding-left: 2%;
     float: right;
+}
+
+
+.hokøb .hokøb1 {
+    background-color:beige;
+    width: 100%;
+    height: 20vw;
+    float: left;
 }

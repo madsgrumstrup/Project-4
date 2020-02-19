@@ -15,15 +15,15 @@ body {
     overflow: hidden;
     background: linear-gradient(to bottom, rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.09) 89%,rgba(0,0,0,0) 100%); 
     position: fixed;
-    padding-left: 37.5px;
-    padding-right: 37.5px;
+    padding-right: 37px;
     padding-top: 15px;
+    
 }
 
 .navbar a {
     float: right;
     font-size: 1vw;
-    color: #830A0A;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -40,7 +40,7 @@ body {
     font-size: 1vw;  
     border: none;
     outline: none;
-    color: #830A0A;
+    color: white;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -50,7 +50,6 @@ body {
 .dropdown-content {
     display: none;
     position: fixed;
-    
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -58,7 +57,7 @@ body {
 
 .dropdown-content a {
     float: none;
-    color: #830A0A;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -66,55 +65,146 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    border-bottom: 2px solid white;
+    background-color: #;
 }
+
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 .logo{
-    width: 11%;
-    margin: 10px;
+    width: 12%;
+    margin: 12px;
+    position: relative;
+    padding-left: 1.5vw;
 }
 
-.billede{
+/*navbar slut*/
+.forsidebillede{
     margin: auto;
     position:inherit;
     width: 100%;
+}
+
+.logolink{
     
-}
-/*navbar slut*/
-.infomation{
-    width: 100%;
-    overflow: hidden;
-    
-}
-
-.box1{
-    width: 50%;
-    height: 15.6vw;
-    float: left;
-    background-color: aqua;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    width: 10.5%;
+    height: 50%;
+    display: block;
 }
 
-.box2{
-    width: 50%;
-    height: 15.6vw;
-    float: left;
-    background-color: blue;
+.hooverskrift{
+    position: absolute;
+    top: 15vw;
+    font-size: 1.8vw;
+    padding: 10px;
+    color: white;
+    margin-left: 2vw;
 }
 
-.box3{
-    width: 50%;
-    height: 15.6vw;
-    float: left;
+.hop{
+    font-size: 0.8vw;
+    padding-top: 1.5vw;
+}
+
+.hoknap{
+    padding: 12px 20px;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 15px;
+    display: inline-block;
+    margin-bottom: 15px;
+    transition: all .3s;
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+.hoknap:hover{
     background-color: white;
+    border: 2px solid black;
+    color: black;
 }
 
-.box4{
+/* Alt over er forsidebillede alt under er info */
+
+.hoinfocontainer {
+    width: 100%;
+    min-height: 55vw;
+    background-color: #f3f3f3;
+    z-index: 1;
+    position: inherit;
+    overflow: hidden;
+}
+
+.infomation1 {
+    width: 100%;
+}
+
+.infomation1 .infobox1 {
+    background-color: #fff;
     width: 50%;
-    height: 15.6vw;
+    height: 15vw;
     float: left;
-    background-color: grey;
+}
+
+.infomation1 .infobox1 .imghoinfo {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #f3f3f3;
+    background-size: cover;
+    background-position: center,center;
+    position: inherit;
+}
+
+.infomation1 .infobox1 .imghoinfo .imghoinfolink {
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.infomation1 .infobox1 .textboxinfo {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #fff;
+    padding: 1p;
+    position: inherit;
+}
+
+.infomation1 .infobox1 .textboxinfo span {
+    font-size: 1vw;
+    padding-left: 2%
+}
+
+.infomation1 .infobox1 .textboxinfo h3 {
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding-right: 15%;
+    padding-left: 2%
+}
+
+.infomation1 .infobox1 .textboxinfo a {
+    position: inherit;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding-left: 2%;
+    float: right;
+}
+
+
+.hokøb .hokøb1 {
+    background-color:beige;
+    width: 100%;
+    height: 20vw;
+    float: left;
 }

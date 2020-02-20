@@ -1,16 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+//* https://www.colorzilla.com/gradient-editor/ *//
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+/*navbar*/
 .navbar {
     overflow: hidden;
     background: linear-gradient(to bottom, rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.09) 89%,rgba(0,0,0,0) 100%);
     position: fixed;
-    padding-left: 37.5px;
-    padding-right: 37.5px;
+    padding-right: 37px;
     padding-top: 15px;
 }
 
 .navbar a {
     float: right;
     font-size: 1vw;
-    color: #830A0A;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -27,7 +39,7 @@
     font-size: 1vw;
     border: none;
     outline: none;
-    color: #830A0A;
+    color: white;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -37,7 +49,6 @@
 .dropdown-content {
     display: none;
     position: fixed;
-
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -45,7 +56,7 @@
 
 .dropdown-content a {
     float: none;
-    color: #830A0A;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -53,27 +64,61 @@
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    border-bottom: 2px solid white;
+    background-color: #;
 }
+
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 .logo{
-    width: 11%;
-    margin: 10px;
+    width: 12%;
+    margin: 12px;
+    position: relative;
+    padding-left: 1.5vw;
+}
+/*GLOBAL CSS SLUT*/
+/*EGEN KODE TIL UDERSIDEN Skoletjeneste*/
+/*BAGGRUNDSBILLEDE*/
+.sp-flexbox{
+  display: flex;
+  flex-direction: row;
+
+}
+/*Baggrundsbillede indsættes her*/
+.spimg{
+  font-size: 40px;
+  color: red;
+  background-color: green;
+  width: 100%;
+  height: 30vh;
 }
 
-.billede{
-    margin: auto;
-    position:inherit;
-    width: 100%;
-
+/*INFORMATIONSDELEN*/
+.spflex-content{
+  display: flex;
 }
 
-.infomation{
-    width: 100%;
-    overflow: hidden;
+.spinfo{
+  font-size: 40px;
+  color: red;
+  background-color: yellow;
+  width: 80%;
+  height: 30vh;
+}
+
+.img-info img{
+  width: 40vh;
+  height: 100%;
+  border: solid green 5px;
+  float: left;
+}
+.spinfo p{
+  font-size: 18px;
+  color: white;
+  height: auto;
+  background-color: black;
 
 }

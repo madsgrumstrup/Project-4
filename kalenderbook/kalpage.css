@@ -82,6 +82,63 @@
     overflow: hidden;
     
 }
-@charset "utf-8";
+
+.bookcalendertop h1 {
+	text-align: center;
+	margin: 250px 0px;
+	color: #1E1E1E;
+	font-size: 42px;
+	font-weight: 400;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+	
+	
+}
+
+.vdato {
+	position: relative;
+	background-color: aliceblue;
+	height: 60px;
+	width: 100%;
+	max-width: 350%;
+	margin: 30px auto;
+	box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+	cursor: pointer;
+	user-select:none;
+}
+
+.vdato .datoer {
+	display: none;
+	position: absolute;
+	top:100%;
+	left:0;
+	right: 0;
+	background-color: antiquewhite;
+}
+
+.vdato .datov {
+	height: 100%;
+	width: 100%;
+	color: #0E0E0E;
+	font-size: 36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* CSS Document */
 

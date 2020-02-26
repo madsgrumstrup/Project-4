@@ -1,5 +1,6 @@
 // JavaScript Document
 const vdato_element = document.querySelector('.vdato');
+const vdato_element = document.querySelector('.vdato');
 const datov_element = document.querySelector('.vdato .datov');
 const datoer_element = document.querySelector('.vdato .datoer');
 

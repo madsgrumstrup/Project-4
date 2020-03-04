@@ -90,6 +90,10 @@
     text-align: center;
 }
 
+.info-text-padding h2 {
+    padding-left: 24px;
+}
+
 .info-text-padding p {
     padding-left: 24px;
 }

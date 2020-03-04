@@ -79,18 +79,21 @@ body {
     position: relative;
     padding-left: 1.5vw;
 }
+
 /*GLOBAL CSS SLUT*/
 /*EGEN KODE TIL UDERSIDEN Skoletjeneste*/
 /*BAGGRUNDSBILLEDE*/
+
 .sp-flexbox{
   display: flex;
   flex-direction: row;
-
+  text-align: center;
 }
+
 /*Baggrundsbillede indsættes her*/
 .spimg{
   font-size: 40px;
-  color: red;
+  color: black;
   background-color: green;
   width: 100%;
   height: 30vh;
@@ -103,22 +106,21 @@ body {
 
 .spinfo{
   font-size: 40px;
-  color: red;
-  background-color: yellow;
+  color: black;
+  background-color: white;
   width: 80%;
   height: 30vh;
 }
 
 .img-info img{
-  width: 40vh;
+  width: 50vh;
   height: 100%;
-  border: solid green 5px;
-  float: left;
+  border: solid black 4px;
 }
+
 .spinfo p{
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   height: auto;
-  background-color: black;
-
+  background-color: #AEA932;
 }

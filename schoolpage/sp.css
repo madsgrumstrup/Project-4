@@ -107,7 +107,7 @@ body {
   flex-direction: row;
   width: 100%;
   height: auto;
-  background-image: url(foraar.jpg);
+  background-image: url(spnr2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -143,7 +143,7 @@ body {
   flex-direction: row;
   width: 100%;
   height: auto;
-  background-image: url(vinter.jpg);
+  background-image: url(spnr2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -155,18 +155,22 @@ body {
   flex-direction: row;
   width: 100%;
   height: auto;
-  background-image: url(po4.png);
+  background-image: url(nytnyt.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.img-info p, h1{
+.img-info h1{
   text-align: center;
+  color: black
 }
 
-.img-info h1 {
-word-wrap: break-word;
+
+.img-info p{
+  text-align: left;
+  color: red
 }
+
 
 .img-info{
   flex-direction: column;
@@ -179,9 +183,19 @@ word-wrap: break-word;
 .img-info1 {
   flex-direction: column;
   display: flex;
-  width:  40%;
+  width:  60%;
   color: white;
   background-color: rgba(82, 82, 82, 0.61);
+}
+
+.img-info1 p{
+  text-align: center;
+  color: #ffffff
+}
+
+.img-info1 h1{
+  text-align: center;
+  color: #830a0a
 }
 
 .image img{
@@ -233,7 +247,7 @@ background-size: cover;
 
 @media only screen and (max-width: 1300px) {
     .box5 {
-    background-image: url(samf1.jpg);
+    background-image: url(spnr1.jpg);
     background-size: cover;
       }
     }

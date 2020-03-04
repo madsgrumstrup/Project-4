@@ -84,43 +84,162 @@ body {
 /*EGEN KODE TIL UDERSIDEN Skoletjeneste*/
 /*BAGGRUNDSBILLEDE*/
 
-.sp-flexbox{
+.bg1{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(230, 230, 230);
+  align-items: center;
+  justify-content: center;
+}
+
+.bg2{
   display: flex;
   flex-direction: row;
+  background-color: rgb(230, 230, 230);
+  align-items: center;
+  justify-content: center;
+}
+
+.box1{
+  margin: 10px;
+  box-shadow: 1px 2px 5px 0px rgb(61, 61, 61);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  background-image: url(foraar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box2 {
+  margin: 10px;
+  box-shadow: 1px 2px 5px 0px rgb(61, 61, 61);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  background-image: url(sommer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box3 {
+  margin: 10px;
+  box-shadow: 1px 2px 5px 0px rgb(61, 61, 61);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  background-image: url(efteraar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box4 {
+  margin: 10px;
+  box-shadow: 1px 2px 5px 0px rgb(61, 61, 61);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  background-image: url(vinter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box6 {
+  margin: 10px;
+  box-shadow: 1px 2px 5px 0px rgb(61, 61, 61);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  background-image: url(efteraar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-info p, h1{
   text-align: center;
 }
 
-/*Baggrundsbillede indsættes her*/
-.spimg{
-  font-size: 40px;
-  color: black;
-  background-color: green;
-  width: 100%;
-  height: 30vh;
+.img-info h1 {
+word-wrap: break-word;
 }
 
-/*INFORMATIONSDELEN*/
-.spflex-content{
+.img-info{
+  flex-direction: column;
   display: flex;
-}
-
-.spinfo{
-  font-size: 40px;
-  color: black;
-  background-color: white;
-  width: 80%;
-  height: 30vh;
-}
-
-.img-info img{
-  width: 50vh;
-  height: 100%;
-  border: solid black 4px;
-}
-
-.spinfo p{
-  font-size: 16px;
+  width: 40%;
   color: white;
-  height: auto;
-  background-color: #AEA932;
+  background-color: rgba(82, 82, 82, 0.61);
 }
+
+.img-info1 {
+  flex-direction: column;
+  display: flex;
+  width:  40%;
+  color: white;
+  background-color: rgba(82, 82, 82, 0.61);
+}
+
+.image img{
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  margin-top: 7%;
+}
+
+.box5 {
+  box-shadow: 1px 2px 5px 0px rgb(61, 61, 61);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: rgb(189, 189, 189);
+}
+
+
+.box5{
+background-image: url(samf.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 1300px) {
+  .image {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .img-info1 {
+    margin: auto;
+    background-color: rgba(27, 27, 27, 0.534);
+    color: white;
+    padding: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .box5 {
+    background-image: url(samf1.jpg);
+    background-size: cover;
+      }
+    }
+
+@media only screen and (max-width: 1300px) {
+    .img-info {
+    width: 60%;
+      }
+    }

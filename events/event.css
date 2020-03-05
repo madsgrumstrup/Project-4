@@ -30,7 +30,7 @@ body{
   flex-direction: row;
   width: 100%;
   height: auto;
-  background-image: url(foraar.jpg);
+  background-image: url(../images/foraar.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -42,7 +42,7 @@ body{
   flex-direction: row;
   width: 100%;
   height: auto;
-  background-image: url(sommerr.jpeg);
+  background-image: url(../images/bagjern.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -54,7 +54,7 @@ body{
   flex-direction: row;
   width: 100%;
   height: auto;
-  background-image: url(efteraar.jpg);
+  background-image: url(../images/fall.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -66,7 +66,7 @@ body{
   flex-direction: row;
   width: 100%;
   height: auto;
-  background-image: url(vinter.jpg);
+  background-image: url(../images/vinter.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -113,7 +113,7 @@ word-wrap: break-word;
 
 
 .box5{
-background-image: url(samf.jpg);
+background-image: url(../images/samf.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -141,7 +141,7 @@ background-size: cover;
 
 @media only screen and (max-width: 1300px) {
     .box5 {
-    background-image: url(samf1.jpg);
+    background-image:url(../images/samf1.jpg);
     background-size: cover;
       }
     }

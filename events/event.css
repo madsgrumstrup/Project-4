@@ -1,10 +1,14 @@
 body{
     margin: 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Tahoma', sans-serif;
 }
 
 *{
   box-sizing: border-box;
+}
+
+.box1 h1, .box2 h1, .box3 h1, .box4 h1, .box5 h1, .img-info1 h1{
+  font-family: 'Norse', sans-serif;
 }
 
 .bg1{
@@ -148,6 +152,6 @@ background-size: cover;
 
 @media only screen and (max-width: 1300px) {
     .img-info {
-    width: 60%;
+    width: 100%;
       }
     }

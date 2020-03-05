@@ -24,7 +24,7 @@ month_element.textContent = month12[month] + ' ' + year;
 datov_element.textContent = formatDate(date);
 datov_element.dataset.value = selectedDate;
 
-populateDates();
+indsatteDatøer();
 
 
 //listeners 
@@ -45,7 +45,7 @@ function ToNextMonth(e) {
 		year++;
 	}
 	month_element.textContent = month12[month] + ' ' + year;
-	populateDates();
+	indsatteDatøer();
 }
 function ToPrevMonth (e) {
 	month--;
@@ -54,15 +54,28 @@ function ToPrevMonth (e) {
 		year--;
 	}
 	month_element.textContent = month12[month] + ' ' + year;
-	populateDates();
+	indsatteDatøer();
 }
-function populateDates (e) {
-	dage_element.innerHTML = '';
+function indsatteDatøer (e) {
+	dage_element.innerHTML = ''; //clear dagende efter ver gang der klikkes next eller prev
 	let antaldage = 31;
-
+//if statements der sørger for at det rette antal dage er ved hver måned kan også gøres em,d switch statement
 	if (month == 1) {
 		antaldage = 28;
 	}
+	if (month == 3) {
+		antaldage = 30;
+	}
+	if (month == 5) {
+		antaldage = 30;
+	}
+	if (month == 8) {
+		antaldage = 30;
+	}
+	if (month == 10) {
+		antaldage = 30;
+	}
+	
 for (let i = 0; i < antaldage; i++) {
 		const dag_element = document.createElement('div');
 		dag_element.classList.add('day');
@@ -81,7 +94,7 @@ for (let i = 0; i < antaldage; i++) {
 			datov_element.textContent = formatDate(selectedDate);
 			datov_element.dataset.value = selectedDate;
 
-			populateDates();
+			indsatteDatøer();
 		});
 
 		dage_element.appendChild(dag_element);
@@ -114,5 +127,5 @@ function formatDate (d) {
 
 	let year = d.getFullYear();
 
-	return day + ' / ' + month + ' / ' + year;
+	return day + ' - ' + month + ' - ' + year;
 }

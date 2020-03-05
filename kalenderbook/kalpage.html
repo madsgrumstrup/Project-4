@@ -6,6 +6,18 @@
 	<meta http-equiv="X-UA-Compatible" content ="ie=edge"> -<!-- is this necesarry -->
 <link href="kalpage.css" rel="stylesheet" type="text/css">
 <title>Untitled Document</title>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+window.addEventListener("scroll", function() {
+    if (window.scrollY > 1) {
+        $('.navbar').fadeOut();
+    }
+    else {
+        $('.navbar').fadeIn();
+    }
+},false);
+    </script>
+	
 </head>
 <body>
 	
@@ -75,8 +87,19 @@
             <a href="#">Jernalder tidslinje</a>
             <a href="#">Rundvisning for grupper</a>
         </div>
+		<script>
+window.addEventListener("scroll", function() {
+    if (window.scrollY > 1) {
+        $('.navbar').fadeOut();
+    }
+    else {
+        $('.navbar').fadeIn();
+    }
+},false);
+    </script>
     </div>
     <a href="#forside">Forside</a>
+		
 </div>
 <div class="topimg">
 	  <img src="../images/kalimg.jpg" class="logo">
@@ -100,6 +123,7 @@
 		
 		</div>
 	</div>
+	
 	<script src="kalpage.js"></script>
 </div>
 	

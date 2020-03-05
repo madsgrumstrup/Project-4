@@ -33,6 +33,14 @@ nextmonth_element.addEventListener('click', ToNextMonth);
 prevmonth_element.addEventListener('click', ToPrevMonth);
 //functions
 
+
+
+
+
+
+
+
+
 function datovtoggle(e) {
 	if (!checkEventPathForClass(e.path, 'datoer')) { //if not
 	datoer_element.classList.toggle('active');

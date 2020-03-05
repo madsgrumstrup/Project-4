@@ -106,7 +106,7 @@ body {
   flex-direction: row;
   width: 100%;
   height: auto;
-  background-image: url(5.jpg);
+  background-image: url(8.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -118,7 +118,7 @@ body {
   flex-direction: row;
   width: 100%;
   height: auto;
-  background-image: url(2.jpg);
+  background-image: url(9.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -130,7 +130,7 @@ body {
   flex-direction: row;
   width: 100%;
   height: auto;
-  background-image: url(3.jpg);
+  background-image: url(10.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -142,7 +142,7 @@ body {
   flex-direction: row;
   width: 100%;
   height: auto;
-  background-image: url(4.jpg);
+  background-image: url(12.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }

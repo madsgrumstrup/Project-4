@@ -5,6 +5,7 @@
 }
 .navbar {
     overflow: hidden;
+    /* Skiftet fra background: linear-gradient(to bottom, rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.09) 89%,rgba(0,0,0,0) 100%); */
     background: linear-gradient(to bottom, rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.09) 89%,rgba(0,0,0,0) 100%);
     position: fixed;
     padding-left: 37.5px;
@@ -96,17 +97,19 @@
 
 .info-text-padding p {
     padding-left: 24px;
+    padding-right: 500px;
+    font-family: 'Tahoma', serif;
 }
 
-.info-text-padding img {
-    float: right;
+
+.img2 img{
+   float: right;
     height: 256px;
     width: auto;
     padding-left: 12px;
-
 }
 
-.img2 img{
+.img3 img{
    float: right;
     height: 210px;
     width: auto;
@@ -117,8 +120,31 @@
     padding-left: 24px;
 }
 
+{
+  box-sizing: border-box;
+}
 
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 
 /*slettes*/
 footer {

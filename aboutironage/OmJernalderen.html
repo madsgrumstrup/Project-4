@@ -4,16 +4,20 @@
   <meta charset="utf-8">
   	<link href="OmJernalderen.css" rel="stylesheet" type="text/css">
             <title>SO question 2768264</title>
-        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                $(window).scroll(function() {
-                    if ($('body').height() <= ($(window).height() + $(window).scrollTop())) {
-                        alert('Læs mere på Nationalmuseets hjemmeside');
-                    }
-                });
-            });    
-        </script>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+   
+    <script>
+window.addEventListener("scroll", function() {
+    if (window.scrollY > 1) {
+        $('.navbar').fadeOut();
+    }
+    else {
+        $('.navbar').fadeIn();
+    }
+},false);
+    </script>
+
         <style>
             body { margin: 0; }
         </style>
@@ -91,6 +95,7 @@
 
     <div id="subpage-content" class="fade-in">
     <input id="subpage-content" type="hidden" value="Odins odense">
+
         <div class="info-text-padding">
         <h1>Jernalderen</h1>
             <br>
@@ -104,7 +109,11 @@
             
             <strong>Ældre jernalder</strong>
             <br>
+                <div class="img2">
                 <img src=../images/OO-blot-v-mosen02.jpg>
+            </div>
+    
+        <p>
             <br>
                 I Danmark omfatter perioden år 500 F.Kr. til år 400 E.Kr. og inddeles i tre underperioder: førromersk eller keltisk jernalder (500 – 1 f.Kr.), ældre romersk jernalder (1 – 200 e.Kr.) og yngre romersk jernalder (200 - 400 e.Kr.).
 
@@ -150,7 +159,7 @@ Herfra har vi fund - SÅ kendte som
                 <br>
                 <strong>Vikingetiden</strong>
                 <br>
-                <div class="img2"><img src=../images/oo-markedsplads18-kampbilleder-stor.jpg></div>
+                <div class="img3"><img src=../images/oo-markedsplads18-kampbilleder-stor.jpg></div>
                 <br>
                 <p>
                     Jernalderen og også Oldtiden slutter med vikingetiden, som er betegnelsen for perioden fra 800 til 1050 e.Kr...
@@ -178,6 +187,18 @@ Men vi er meget opmærksomme på den store interesse for den historiske periode 
             <br>
         </div>
     </div>
+        <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
  <footer>
 
         <ul class="footer-links-main">

@@ -82,49 +82,7 @@ body {
 /*GLOBAL CSS SLUT*/
 /*EGEN KODE TIL UDERSIDEN EVENTS*/
 /*BILLEDE OG KALENDER*/
-.ev-flexbox{
-  display: flex;
-  flex-direction: row;
 
-}
 
-.evimg{
-  font-size: 40px;
-  color: red;
-  background-color: green;
-  width: 60%;
-  height: 30vh;
-}
-.evkalender{
-  font-size: 4vh;
-  color: red;
-  background-color: blue;
-  width: 40%;
-  height: 30vh;
-}
 
-/*INFORMATIONSDELEN*/
-.evflex-content{
-  display: flex;
-}
-
-.evinfo{
-  font-size: 40px;
-  color: red;
-  background-color: yellow;
-  width: 80%;
-  height: 30vh;
-}
-
-.img-info img{
-  width: 40vh;
-  height: 100%;
-  border: solid green 5px;
-}
-.evinfo p{
-  font-size: 18px;
-  color: white;
-  height: auto;
-  background-color: black;
-
-}
+/*INFORMATION NEDEST I SIDEN*/

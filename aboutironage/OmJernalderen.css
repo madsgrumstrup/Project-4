@@ -91,9 +91,6 @@
     text-align: center;
 }
 
-.info-text-padding h2 {
-    padding-left: 24px;
-}
 
 .info-text-padding p {
     padding-left: 24px;
@@ -142,18 +139,20 @@
 @media screen and (max-width: 1000px) {
   .info-text-padding p {
     font-size: 10px;
-  }
+    padding-right: 241px;
+ }
   .img2 img{
-   
-}
+    height: 105px;
+    width: auto;
+ }
 
   .img3 img{
-   float: right;
-    height: 210px;
-    width: auto;
-    padding-left: 12px; 
-}
-    
+    height: 105px;
+    width: auto; 
+ }
+   hr { 
+    margin-right: 241px;
+ }  
 }
 
 /*slettes*/

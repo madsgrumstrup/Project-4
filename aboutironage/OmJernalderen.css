@@ -107,7 +107,7 @@
 
 .img2 img{
    float: right;
-    height: 256px;
+    height: 210px;
     width: auto;
     padding-left: 12px;
 }
@@ -138,6 +138,26 @@
     border-top-color: #830a0a;
     border-bottom-color: #830a0a;
 } 
+
+@media screen and (max-width: 1000px) {
+  .info-text-padding p {
+    font-size: 10px;
+  }
+  .img2 img{
+   float: right;
+   height: 256px;
+    width: auto;
+    padding-left: 12px;
+}
+
+  .img3 img{
+   float: right;
+    height: 210px;
+    width: auto;
+    padding-left: 12px; 
+}
+    
+}
 
 /*slettes*/
 footer {

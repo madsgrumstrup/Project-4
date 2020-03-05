@@ -15,7 +15,7 @@ body {
     overflow: hidden;
     background: linear-gradient(to bottom, rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.09) 89%,rgba(0,0,0,0) 100%); 
     position: fixed;
-    padding-right: 37px;
+    padding-right: 42.33px;
     padding-top: 15px;
     
 }
@@ -215,15 +215,17 @@ body {
 .hofooter{
     display: flex;
     flex-wrap: wrap;
-    background-color: black;
-    padding-left: 25%;
-    padding-right: 25%;
+    background-color: slategrey;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 .footercontainer{
     color: aqua;
     display: flex;
     flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .rowfooter{
@@ -231,25 +233,26 @@ body {
 }
 
 .footercon1{
-    font-size: 1.5vw;
+    font-size: 30px;
     float: left;
     margin: 20px;
-    padding-left: 100px;
-    color: white;
 }
 
 .footercon2{
-    font-size: 1.5vw;
+    font-size: 30px;
     float: left;
     margin: 20px;
-    padding-left: 100px;
 }
 
 .footercon3{
-    font-size: 1.5vw;
+    font-size: 30px;
     float: left;
     margin: 20px;
-    padding-left: 100px;
+
+}
+
+.hofooterul{
+    list-style-type: none;
 }
 
 .hofooter a  {
@@ -263,4 +266,9 @@ body {
 
 .footercopytekst{
     color: white;
+    background-color: dimgrey;
+}
+
+.fohotext{
+    padding-left: 5px; 
 }

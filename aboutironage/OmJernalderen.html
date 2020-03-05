@@ -3,6 +3,24 @@
 <head>
   <meta charset="utf-8">
   	<link href="OmJernalderen.css" rel="stylesheet" type="text/css">
+            <title>SO question 2768264</title>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+   
+    <script>
+window.addEventListener("scroll", function() {
+    if (window.scrollY > 1) {
+        $('.navbar').fadeOut();
+    }
+    else {
+        $('.navbar').fadeIn();
+    }
+},false);
+    </script>
+
+        <style>
+            body { margin: 0; }
+        </style>
 </head>
 <body>
   <div class="navbar">
@@ -77,6 +95,7 @@
 
     <div id="subpage-content" class="fade-in">
     <input id="subpage-content" type="hidden" value="Odins odense">
+
         <div class="info-text-padding">
         <h1>Jernalderen</h1>
             <br>
@@ -87,8 +106,14 @@
             For at få et indtryk af hvad vi allerede kender til perioden, så lad os få nogle årstal:</p>
             <p>
             <br>
+            
             <strong>Ældre jernalder</strong>
             <br>
+                <div class="img2">
+                <img src=../images/OO-blot-v-mosen02.jpg>
+            </div>
+    
+        <p>
             <br>
                 I Danmark omfatter perioden år 500 F.Kr. til år 400 E.Kr. og inddeles i tre underperioder: førromersk eller keltisk jernalder (500 – 1 f.Kr.), ældre romersk jernalder (1 – 200 e.Kr.) og yngre romersk jernalder (200 - 400 e.Kr.).
 
@@ -111,13 +136,7 @@ Det har vore arkæologer (her et billedet taget på National Museet) fundet mang
 
 Fra YNGRE Jernalder (500 F.Kr. - 400 E.Kr.) - altså i det meste af den periode, vi kender som "Romer-tiden" kender vi en række arkæologiske fund, som kan gøre os klogere på livet i perioden
             <br>
-            <br>
-            <strong>
-               <a href="#">
-                Kan linke til en anden underside
-                <br>
-               </a>
-            </strong>    
+            <br>  
             </p>
             <p>
                 <br>
@@ -135,9 +154,14 @@ Herfra har vi fund - SÅ kendte som
             </p>
             <p>
                 <br>
+                <br>
+                <br>
+                <br>
                 <strong>Vikingetiden</strong>
                 <br>
+                <div class="img3"><img src=../images/oo-markedsplads18-kampbilleder-stor.jpg></div>
                 <br>
+                <p>
                     Jernalderen og også Oldtiden slutter med vikingetiden, som er betegnelsen for perioden fra 800 til 1050 e.Kr...
 
 Denne periode formidler vi også i vor landsby - og denne periode betegner nok toppen af den udvikling vi kender fra Oldtiden - og er en periode, som endte med et storrige i det nordlige Europa, ledet af en vikingekonge - nemlig Knud den Hellige.
@@ -151,8 +175,9 @@ Men vi er meget opmærksomme på den store interesse for den historiske periode 
             </p>
             <p>
                 <br>
-                <strong><a href="https://natmus.dk/museer-og-slotte/nationalmuseet/undervisning-paa-nationalmuseet/undervisningsmaterialer/grundskolen/danmarks-oldtid/undervisningsrollespil/jernalder/">
-                Læs mere på Nationalmuseets hjemmeside
+                <strong>
+                    <a href="https://natmus.dk/museer-og-slotte/nationalmuseet/undervisning-paa-nationalmuseet/undervisningsmaterialer/grundskolen/danmarks-oldtid/undervisningsrollespil/jernalder/">
+                Nationalmuseets hjemmeside
                 <br>
                </a>
                 </strong>
@@ -162,7 +187,37 @@ Men vi er meget opmærksomme på den store interesse for den historiske periode 
             <br>
         </div>
     </div>
+        <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+ <footer>
 
+        <ul class="footer-links-main">
+         <li><a href="#">Forside</a></li>
+         <li><a href="cases.html">Portfolie</a></li>
+         <li><a href="OmMig.html">Om mig</a></li>
+         <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <ul class="footer-links-cases">
+            <li><p>Seneste projekter</p></li>
+         
+         <li><p><a href="#"></a>FYENS RIDEKLUB - WEB REDESIGN</p></li>
+         
+         <li><p><a href="#"></a>H.C.ANDERSENS MUSEET - INSTALLERING</p></li>
+         
+         <li><p><a href="#"></a>MARKVSGAMING - YOUTUBE CHANNEL</p></li>
+            <li><p><a href="#"></a>HAMBORG TUR - VIDEO PRODUCTION</p></li>
+        </ul>
+          </footer>
     
 </body>
 </html>

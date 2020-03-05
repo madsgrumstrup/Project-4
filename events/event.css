@@ -1,88 +1,153 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
 *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
 }
 
-//* https://www.colorzilla.com/gradient-editor/ *//
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-}
-/*navbar*/
-.navbar {
-    overflow: hidden;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.09) 89%,rgba(0,0,0,0) 100%);
-    position: fixed;
-    padding-right: 37px;
-    padding-top: 15px;
+.bg1{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(230, 230, 230);
+  align-items: center;
+  justify-content: center;
 }
 
-.navbar a {
-    float: right;
-    font-size: 1vw;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    margin-top: 1.5%;
+.bg2{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(230, 230, 230);
+  align-items: center;
+  justify-content: center;
 }
 
-.dropdown {
-    float: right;
-    overflow: hidden;
-    margin-top: 1.5%;
+.box1{
+  margin: 10px;
+  box-shadow: 1px 2px 5px 0px rgb(61, 61, 61);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  background-image: url(foraar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.dropdown .dropbtn {
-    font-size: 1vw;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
+.box2 {
+  margin: 10px;
+  box-shadow: 1px 2px 5px 0px rgb(61, 61, 61);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  background-image: url(sommerr.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.dropdown-content {
+.box3 {
+  margin: 10px;
+  box-shadow: 1px 2px 5px 0px rgb(61, 61, 61);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  background-image: url(efteraar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box4 {
+  margin: 10px;
+  box-shadow: 1px 2px 5px 0px rgb(61, 61, 61);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  background-image: url(vinter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.img-info p, h1{
+  text-align: center;
+}
+
+.img-info h1 {
+word-wrap: break-word;
+}
+
+.img-info{
+  flex-direction: column;
+  display: flex;
+  width: 40%;
+  color: white;
+  background-color: rgba(82, 82, 82, 0.61);
+}
+
+.img-info1 {
+  flex-direction: column;
+  display: flex;
+  width:  100%;
+  line-height: normal;
+  color: white;
+  background-color: rgba(82, 82, 82, 0.61);
+}
+
+
+
+.box5 {
+  box-shadow: 1px 2px 5px 0px rgb(61, 61, 61);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+  height: auto;
+  text-align: center;
+  background-color: rgb(189, 189, 189);
+}
+
+
+.box5{
+background-image: url(samf.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 1300px) {
+  .image {
     display: none;
-    position: fixed;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  }
 }
 
-.dropdown-content a {
-    float: none;
+@media only screen and (max-width: 1300px) {
+  .img-info1 {
+    margin: auto;
+    background-color: rgba(27, 27, 27, 0.534);
     color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    border-bottom: 2px solid white;
-    background-color: #;
+    padding: 20px;
+  }
 }
 
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 
-.logo{
-    width: 12%;
-    margin: 12px;
-    position: relative;
-    padding-left: 1.5vw;
-}
-/*GLOBAL CSS SLUT*/
-/*EGEN KODE TIL UDERSIDEN EVENTS*/
-/*BILLEDE OG KALENDER*/
+@media only screen and (max-width: 1300px) {
+    .box5 {
+    background-image: url(samf1.jpg);
+    background-size: cover;
+      }
+    }
 
-
-
-/*INFORMATION NEDEST I SIDEN*/
+@media only screen and (max-width: 1300px) {
+    .img-info {
+    width: 60%;
+      }
+    }

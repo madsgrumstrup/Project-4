@@ -15,15 +15,15 @@ body {
     overflow: hidden;
     background: linear-gradient(to bottom, rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.09) 89%,rgba(0,0,0,0) 100%); 
     position: fixed;
-    padding-left: 37.5px;
-    padding-right: 37.5px;
+    padding-right: 37px;
     padding-top: 15px;
+    
 }
 
 .navbar a {
     float: right;
     font-size: 1vw;
-    color: #830A0A;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -40,7 +40,7 @@ body {
     font-size: 1vw;  
     border: none;
     outline: none;
-    color: #830A0A;
+    color: white;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -50,7 +50,6 @@ body {
 .dropdown-content {
     display: none;
     position: fixed;
-    
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -58,7 +57,7 @@ body {
 
 .dropdown-content a {
     float: none;
-    color: #830A0A;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -66,22 +65,191 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    border-bottom: 2px solid white;
+    background-color: #;
 }
+
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 .logo{
-    width: 11%;
-    margin: 10px;
+    width: 12%;
+    margin: 12px;
+    position: relative;
+    padding-left: 1.5vw;
 }
 
-.billede{
+/*navbar slut*/
+.forsidebillede{
     margin: auto;
     position:inherit;
     width: 100%;
+}
+
+.logolink{
+    
+    position: absolute;
+    top: 0;
+    left: 2%;
+    width: 10.5%;
+    height: 50%;
+    display: block;
+}
+
+.hooverskrift{
+    position: absolute;
+    top: 15vw;
+    font-size: 1.8vw;
+    padding: 10px;
+    color: white;
+    margin-left: 2vw;
+}
+
+.hop{
+    font-size: 0.8vw;
+    padding-top: 1.5vw;
+}
+
+.hoknap{
+    padding: 12px 20px;
+    border: 0.2vw solid white;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 15px;
+    display: inline-block;
+    margin-bottom: 15px;
+    transition: all .3s;
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+.hoknap:hover{
+    background-color: white;
+    border: 0.2vw solid black;
+    color: black;
+}
+
+/* nav bar slut */
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container img{
+    width: 60%;
+    height: 105%
     
 }
-/*navbar slut*/
+
+
+
+.visit-img{
+    float:right; 
+    margin-left: 0px; 
+    margin-right: 550px;  
+    margin-top: -85px
+}
+
+h1{
+    font-size: 40px; 
+    font-family: 'norse'; 
+}
+
+.open-head{
+    margin-left: 71%;
+    margin-top: -44%; 
+    text-align: center;
+}
+
+
+
+.hr1 {
+    width: 36%;
+    margin-left: 60%;
+    height: 2px;
+    margin-top: -40.5%; 
+    background-color:#830A0A;
+}
+
+.open-text{
+    margin-left: 65%; 
+    text-align: left; 
+    font-size: 20px; 
+    margin-top: -40%;
+    font-family: 'norse', bold;  
+}
+
+.open-text2{
+    margin-left: 69%; 
+    text-align: center; 
+    font-size: 20px; 
+    margin-top: -37%;
+    color: #830A0A;
+    font-family: 'norse', bold; 
+    font-size: 22px; 
+
+}
+.open-text3{
+    margin-left: 65%; 
+    text-align: left; 
+    font-size: 20px; 
+    margin-top: -30%;
+    color: black;
+    font-family: 'norse'; 
+}
+
+
+.open-text5{
+    margin-left: 65%; 
+    text-align: left; 
+    font-size: 20px; 
+    margin-top: -28%;
+    color: black;
+    font-family: 'norse'; 
+}
+
+.open-text6{
+    margin-left: 69%; 
+    text-align: center; 
+    font-size: 20px; 
+    margin-top: -25%;
+    color: #830A0A;
+    font-family: 'norse'; 
+    font-size: 22px;
+}
+
+.open-text4{
+    margin-left: 65%; 
+    text-align: left; 
+    font-size: 20px; 
+    margin-top: -20%;
+    color: black;
+    font-family: 'norse'; 
+}
+
+.pris-head{
+    margin-left: 71%;
+    margin-top:-17.5%; 
+    text-align: center;
+}
+
+.hr2 {
+    width: 36%;
+    margin-left: 60%;
+    height: 2px;
+    margin-top: -14%; 
+    background-color:#830A0A;
+}
+
+.pris-text{
+    margin-left: 73%;  
+    text-align: left; 
+    font-size: 20px; 
+    margin-top: -13%;
+    color: black;
+    font-family: 'norse'; 
+}

@@ -91,20 +91,20 @@
     text-align: center;
 }
 
-.info-text-padding h2 {
-    padding-left: 24px;
-}
 
 .info-text-padding p {
     padding-left: 24px;
-    padding-right: 500px;
+    padding-right: 482px;
     font-family: 'Tahoma', serif;
+    border-bottom: 2px;
+    border-bottom-color: #830a0a;
 }
+
 
 
 .img2 img{
    float: right;
-    height: 256px;
+    height: 210px;
     width: auto;
     padding-left: 12px;
 }
@@ -124,26 +124,35 @@
   box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
+  hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 24px;
+    margin-right: 482px;
+    border-style: inset;
+    border-width: 2px;
+    border-top-color: #830a0a;
+    border-bottom-color: #830a0a;
+} 
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+@media screen and (max-width: 1000px) {
+  .info-text-padding p {
+    font-size: 10px;
+    padding-right: 241px;
+ }
+  .img2 img{
+    height: 105px;
+    width: auto;
+ }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+  .img3 img{
+    height: 105px;
+    width: auto; 
+ }
+   hr { 
+    margin-right: 241px;
+ }  
 }
 
 /*slettes*/

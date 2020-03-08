@@ -82,14 +82,25 @@
     overflow: hidden;
     
 }
-.topimg {
-	
-    margin: auto;
-    position:inherit;
-    width: 100%;
 
+.topimg {
+    padding-top: 132px;
 }
 
+.topimg img{
+    width: 432px;
+    height: auto;
+    left: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+.bookcalendertop {
+    float: right;
+    padding-right: 104px;
+}
 
 .bookcalendertop h1 {
 	text-align: center;
@@ -98,19 +109,14 @@
 	font-size: 42px;
 	font-weight: 400;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	
-	
-	
 }
-
-
-	
 
 .bookcalendertop h1 {
 	font-family:norse;
 	text-transform:uppercase;
 	font-size: 60px;
 }
+
 .vdato {
 	position: relative;
 	background-color: #830A0A;
@@ -122,6 +128,7 @@
 	cursor: pointer;
 	user-select:none;
 }
+
 .vdato:hover {
 	background-color:#621818;
 }
@@ -202,7 +209,20 @@
 	background-color: #9B4547;
 } 
 
-
+@media screen and (max-width: 1000px) {
+   .bookcalendertop {
+    float: right;
+    padding-right: 104px;
+ }
+    .topimg img {
+        width: 35%;
+        height: auto;
+        padding-top: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 /* CSS Document */
 

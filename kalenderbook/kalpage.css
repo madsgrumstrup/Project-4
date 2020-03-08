@@ -82,12 +82,28 @@
     overflow: hidden;
     
 }
-.topimg {
-	
-    margin: auto;
-    position: inherit;
-    width: 100%;
 
+.topimg {
+    padding-top: 132px;
+}
+
+.topimg img{
+    width: 432px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    border: 2px solid #830a0a;
+    border-radius: 10px;
+    transition: opacity 1s ease-in-out;
+}
+
+.topimg img.top:hover{
+    
+}
+
+.bookcalendertop {
+    float: right;
+    padding-right: 104px;
 }
 
 .bookcalendertop h1 {
@@ -197,7 +213,12 @@
 	background-color: #9B4547;
 } 
 
-
+@media screen and (max-width: 1000px) {
+   .bookcalendertop {
+    float: right;
+    padding-right: 104px;
+ }
+}
 
 /* CSS Document */
 

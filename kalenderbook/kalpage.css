@@ -90,16 +90,12 @@
 .topimg img{
     width: 432px;
     height: auto;
-    position: absolute;
     left: 0;
-    border: 2px solid #830a0a;
-    border-radius: 10px;
-    transition: opacity 1s ease-in-out;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
-.topimg img.top:hover{
-    
-}
 
 .bookcalendertop {
     float: right;
@@ -218,6 +214,14 @@
     float: right;
     padding-right: 104px;
  }
+    .topimg img {
+        width: 35%;
+        height: auto;
+        padding-top: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* CSS Document */

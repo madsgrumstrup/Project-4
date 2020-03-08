@@ -87,17 +87,26 @@ body {
   display: flex;
   flex-direction: column;
   background-color: rgb(230, 230, 230);
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
 }
 
 .bg2{
   display: flex;
   flex-direction: row;
   background-color: rgb(230, 230, 230);
+  align-items: left;
+  justify-content: left;
+}
+
+.bg3{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(230, 230, 230);
   align-items: center;
   justify-content: center;
 }
+
 
 .box1{
   margin: 10px;
@@ -154,24 +163,24 @@ body {
   flex-direction: row;
   width: 100%;
   height: auto;
-  background-image: url(../images/1.jpg);
+  background-image: url(../images/2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.img-info h1{
+.billedetektstilbillederneh1 h1{
   text-align: center;
   color: #830a0a
 }
 
 
-.img-info p{
-  text-align: center;
+.billedetektstilbilledernep p{
+  text-align: left;
   color: #ffffff
 }
 
 
-.img-info{
+.billedetektstilbillederne{
   flex-direction: column;
   display: flex;
   width: 40%;
@@ -179,20 +188,20 @@ body {
   background-color: rgba(82, 82, 82, 0.61);
 }
 
-.img-info1 {
+.billedetekstitoppen {
   flex-direction: column;
   display: flex;
-  width:  60%;
-  color: white;
-  background-color: rgba(82, 82, 82, 0.61);
+  width:  100%;
+  color: #830a0a;
+  background-color: #030303;
 }
 
-.img-info1 p{
+.billedetekstitoppenp p{
   text-align: center;
   color: #ffffff
 }
 
-.img-info1 h1{
+.billedetekstitoppenh1 h1{
   text-align: center;
   color: #830a0a
 }
@@ -213,16 +222,34 @@ body {
   flex-direction: row;
   width: 100%;
   height: auto;
-  text-align: center;
+  text-align: left;
   background-color: rgb(189, 189, 189);
 }
 
 
 .box5{
-background-image: url(../images/6.jpg);
+background-image: url(../images/foraar.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
+
+.box7 {
+  box-shadow: 1px 2px 5px 0px rgb(61, 61, 61);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: rgb(189, 189, 189);
+}
+
+
+.box7{
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
 
 
 
@@ -246,7 +273,7 @@ background-size: cover;
 
 @media only screen and (max-width: 1300px) {
     .box5 {
-    background-image: url(../images/6.jpg);
+    background-image: url(../images/foraar.jpg);
     background-size: cover;
       }
     }

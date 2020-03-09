@@ -110,10 +110,10 @@
 }
 
 .topimg{
-    background-image: url("../images/bagjern.png");
+    background-image: url("../images/bagjern2.png");
     width: 100%;
     height: 990px;
-	background-repeat: no-repeat;
+	background-repeat:no-repeat;
    
 }
 
@@ -121,13 +121,13 @@
 .bookcalendertop {
     display: flex;
 	align-content: flex-end;
-    padding-right: 104px;
+  
 }
 
 .bookcalendertop h1 {
 	text-align: center;
 	margin: 150px 0px;
-	margin-left: 34%;
+	margin-left: 40%;
 	color: #FFFFFF;
 	font-size: 42px;
 	font-weight: 400;

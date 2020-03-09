@@ -146,11 +146,11 @@ body {
 
 .hoinfocontainer {
     width: 100%;
-    min-height: 46vw;
     background-color: #f3f3f3;
     z-index: 1;
     position: inherit;
     overflow: hidden;
+    margin-top: -4px;
 }
 
 .infomation1 {
@@ -160,7 +160,7 @@ body {
 .infomation1 .infobox1 {
     background-color: #fff;
     width: 50%;
-    height: 15vw;
+    height: 20px;
     float: left;
 }
 
@@ -187,39 +187,41 @@ body {
     width: 50%;
     height: 100%;
     float: left;
-    background-color: #fff;
-    padding: 1p;
+    background-color: white;
     position: inherit;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .infomation1 .infobox1 .textboxinfo span {
-    font-size: 1vw;
-    padding-left: 2%
+    font-size: 20px;
+    padding-left: 2%;
+    text-align: center;
 }
 
 .infomation1 .infobox1 .textboxinfo h3 {
-    font-size: 1.5vw;
+    font-size: 10px;
     font-weight: bold;
-    padding-right: 15%;
-    padding-left: 2%
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .infomation1 .infobox1 .textboxinfo a {
     position: inherit;
-    font-weight: 400;
-    font-size: 1.2em;
-    padding-left: 2%;
-    float: right;
+    font-weight: 400px;
+    font-size: 10px;
+    padding-left: 60%;
 }
 
 
 .hokøb .hokøb1 {
-    background-color:beige;
+    background-color:#830a0a;
     width: 100%;
     height: 100px;
     float: left;
 }
-
 
 
 #myVideo {
@@ -231,7 +233,15 @@ body {
 }
 
 
+h4{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 120px;
+}
 
+.pill{
+    text-align: center;
+}
 
 
 

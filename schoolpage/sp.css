@@ -1,13 +1,13 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 5px;
     font-family: 'Norse',sans-serif;
 }
 
 //* https://www.colorzilla.com/gradient-editor/ *//
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Tahoma, sans-serif;
     background-color: white;
 }
 /*navbar*/
@@ -136,7 +136,9 @@ body {
 .billedetekstiltoppenp p{
   text-align: left;
   font-size: 25px;
+  font-family: Tahoma;
   color: #030303
+
 }
 
 

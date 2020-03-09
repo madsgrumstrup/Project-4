@@ -13,12 +13,22 @@
 <meta charset="utf-8">
 	<link href="cssvisitpage.css" rel="stylesheet" type="text/css">
 <title>Visit page</title>
-
+<script>
+  window.addEventListener("scroll", function() {
+      if (window.scrollY > 1) {
+          $('.navbar').fadeOut();
+      }
+      else {
+          $('.navbar').fadeIn();
+      }
+  },false);
+      </script>
 </head>
 <body>
     
 <!---navigation-->
-<div class="navbar">
+
+  <div class="navbar">
       <img src="../images/logohvid.png" class="logo">
       <a class="logolink" href="../Forside_index/index.html"></a>
       <a href="#forside">DK</a>
@@ -73,7 +83,7 @@
           </button>
           <div class="dropdown-content">
               <a href="../visitpage/visitpage.html">Besøg os</a>
-              <a href="#">Liv i jernalderen</a>
+              <a href="../aboutironage/Omjernalderen.html">Liv i jernalderen</a>
               <a href="#">Jernalder tidslinje</a>
               <a href="#">Rundvisning for grupper</a>
           </div>

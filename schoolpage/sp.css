@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 5px;
+    padding: 0;
     font-family: 'Norse',sans-serif;
 }
 
@@ -10,6 +10,7 @@ body {
     font-family: Tahoma, sans-serif;
     background-color: white;
 }
+
 /*navbar*/
 .navbar {
     overflow: hidden;
@@ -102,10 +103,11 @@ body {
   justify-content: left;
 }
 
-
 .baggrund1{
   display: flex;
   flex-direction: row;
+  padding: 10px;
+  margin: 0px;
   background-color: rgb(230, 230, 230);
   align-items: center;
   justify-content: center;
@@ -152,6 +154,7 @@ body {
 .info1{
   box-shadow: 1px 2px 5px 0px rgb(61, 61, 61);
   display: flex;
+  font-family: 'Norse',sans-serif;
   flex-direction: row;
   width: 100%;
   height: auto;

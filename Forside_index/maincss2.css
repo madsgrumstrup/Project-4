@@ -116,6 +116,10 @@ body {
     padding: 10px;
     color: white;
     margin-left: 2vw;
+	margin-top: 100px;
+}
+.hooverskrift h1{
+	font-family: norse;
 }
 
 .hop{
@@ -152,8 +156,12 @@ body {
     position: inherit;
     overflow: hidden;
     margin-top: -4px;
+	margin-left: 1%;
+	
 }
 
+
+/*inforbox 1*/
 .infomation1 {
     width: 100%;
 }
@@ -188,21 +196,23 @@ body {
     width: 50%;
     height: 100%;
     float: left;
-    background-color: white;
+    background-color:#8C3D3E;
+	color:#FFFFFF;
     position: inherit;
     text-align: center;
-    margin-top: 20px;
+    
 }
 
 .infomation1 .infobox1 .textboxinfo span {
-    font-size: 25px;
+    font-size: 55px;
+	font-family: Norse;
     padding-left: 2%;
     text-align: center;
 }
 
 .infomation1 .infobox1 .textboxinfo h3 {
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight:400;
     padding-right: 10%;
     padding-left: 10%;
     text-align: center;
@@ -212,10 +222,240 @@ body {
 .infomation1 .infobox1 .textboxinfo a {
     position: inherit;
     font-weight: 400px;
-    font-size: 10px;
-    padding-left: 60%;
+    font-size: 30px;
+    color:#FFFFFF;
+	text-align: center;
+	opacity: 0.2;
+	transition: 0.5s ease-in-out;
 }
 
+.infomation1 .infobox1 .textboxinfo a:hover {
+	opacity: 1;
+	
+	 transition: 0.5s ease-in-out;
+	
+}
+
+/*inforbox 2*/
+.infomation2 {
+    width: 100%;
+}
+
+.infomation2 .infobox2 {
+    background-color: #fff;
+    width: 50%;
+    height: 20px;
+    float: left;
+}
+
+.infomation2 .infobox2 .imghoinfo2 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #f3f3f3;
+    background-size: cover;
+    background-position: center,center;
+    position: inherit;
+}
+
+.infomation2 .infobox2 .imghoinfo2 .imghoinfolink2 {
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.infomation2 .infobox2 .textboxinfo2 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color:#8C3D3E;
+	color:#FFFFFF;
+    position: inherit;
+    text-align: center;
+    
+}
+
+.infomation2 .infobox2 .textboxinfo2 span {
+    font-size: 55px;
+	font-family: Norse;
+    padding-left: 2%;
+    text-align: center;
+}
+
+.infomation2 .infobox2 .textboxinfo2 h3 {
+    font-size: 16px;
+    font-weight:400;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.infomation2 .infobox2 .textboxinfo2 a {
+    position: inherit;
+       font-weight: 400px;
+    font-size: 30px;
+    color:#FFFFFF;
+	text-align: center;
+	opacity: 0.2;
+	transition: 0.5s ease-in-out;
+}
+.infomation2 .infobox2 .textboxinfo2 a:hover {
+	opacity: 1;
+	
+	 transition: 0.5s ease-in-out;
+	
+}
+
+/*inforbox 3*/
+.infomation3 {
+    width: 100%;
+}
+
+.infomation3 .infobox3 {
+    background-color: #fff;
+    width: 50%;
+    height: 20px;
+    float: left;
+}
+
+.infomation3 .infobox3 .imghoinfo3 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #f3f3f3;
+    background-size: cover;
+    background-position: center,center;
+    position: inherit;
+}
+
+.infomation3 .infobox3 .imghoinfo3 .imghoinfolink3 {
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.infomation3 .infobox3 .textboxinfo3 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #699C67;
+	color:#FFFFFF;
+    position: inherit;
+    text-align: center;
+    
+}
+
+.infomation3 .infobox3 .textboxinfo3 span {
+    font-size: 55px;
+	font-family: Norse;
+    padding-left: 2%;
+    text-align: center;
+}
+
+.infomation3 .infobox3 .textboxinfo3 h3 {
+    font-size: 14px;
+    font-weight:400;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.infomation3 .infobox3 .textboxinfo3 a {
+    position: inherit;
+       font-weight: 400px;
+    font-size: 30px;
+    color:#FFFFFF;
+	text-align: center;
+	opacity: 0.2;
+	transition: 0.5s ease-in-out;
+}
+.infomation3 .infobox3 .textboxinfo3 a:hover {
+	opacity: 1;
+	
+	 transition: 0.5s ease-in-out;
+	
+}
+/*inforbox 4*/
+.infomation4 {
+    width: 100%;
+}
+
+.infomation4 .infobox4 {
+    background-color: #fff;
+    width: 50%;
+    height: 20px;
+    float: left;
+}
+
+.infomation4 .infobox4 .imghoinfo4 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #f3f3f3;
+    background-size: cover;
+    background-position: center,center;
+    position: inherit;
+}
+
+.infomation4 .infobox4 .imghoinfo4 .imghoinfolink4 {
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.infomation4 .infobox4 .textboxinfo4 {
+    width: 50%;
+    height: 100%;
+    float: left;
+     background-color: #699C67;
+	color:#FFFFFF;
+    position: inherit;
+    text-align: center;
+    
+}
+
+.infomation4 .infobox4 .textboxinfo4 span {
+    font-size: 55px;
+	font-family: Norse;
+    padding-left: 2%;
+    text-align: center;
+}
+
+.infomation4 .infobox4 .textboxinfo4 h3 {
+    font-size: 16px;
+    font-weight:400;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.infomation4 .infobox4 .textboxinfo4 a {
+    position: inherit;
+       font-weight: 400px;
+    font-size: 30px;
+    color:#FFFFFF;
+	text-align: center;
+	opacity: 0.2;
+	transition: 0.5s ease-in-out;
+}
+.infomation4 .infobox4 .textboxinfo4 a:hover {
+	opacity: 1;
+	
+	 transition: 0.5s ease-in-out;
+	
+}
 
 .hokob .hokob1 {
     background-color:gainsboro;
@@ -241,10 +481,8 @@ h4{
 }
 .footer {
     background-color:#1F1F1F;
-
-	margin-top: 100px;
-
-    color: menu;
+	width:  101%;
+    color:#FFFFFF;
     height: 400px;
     position: relative;
     margin-top: -50px;

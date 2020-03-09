@@ -23,7 +23,7 @@ body {
 
 .navbar a {
     float: right;
-    font-size: 1vw;
+    font-size: 13px;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -44,7 +44,7 @@ body {
 
 
 .dropdown .dropbtn {
-    font-size: 1vw;  
+    font-size: 13px;  
     border: none;
     outline: none;
     color: white;
@@ -146,11 +146,11 @@ body {
 
 .hoinfocontainer {
     width: 100%;
-    min-height: 46vw;
     background-color: #f3f3f3;
     z-index: 1;
     position: inherit;
     overflow: hidden;
+    margin-top: -4px;
 }
 
 .infomation1 {
@@ -160,7 +160,7 @@ body {
 .infomation1 .infobox1 {
     background-color: #fff;
     width: 50%;
-    height: 15vw;
+    height: 20px;
     float: left;
 }
 
@@ -187,39 +187,41 @@ body {
     width: 50%;
     height: 100%;
     float: left;
-    background-color: #fff;
-    padding: 1p;
+    background-color: white;
     position: inherit;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .infomation1 .infobox1 .textboxinfo span {
-    font-size: 1vw;
-    padding-left: 2%
+    font-size: 20px;
+    padding-left: 2%;
+    text-align: center;
 }
 
 .infomation1 .infobox1 .textboxinfo h3 {
-    font-size: 1.5vw;
+    font-size: 10px;
     font-weight: bold;
-    padding-right: 15%;
-    padding-left: 2%
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .infomation1 .infobox1 .textboxinfo a {
     position: inherit;
-    font-weight: 400;
-    font-size: 1.2em;
-    padding-left: 2%;
-    float: right;
+    font-weight: 400px;
+    font-size: 10px;
+    padding-left: 60%;
 }
 
 
 .hokøb .hokøb1 {
-    background-color:beige;
+    background-color:gainsboro;
     width: 100%;
-    height: 100px;
+    height: 1000px;
     float: left;
 }
-
 
 
 #myVideo {
@@ -231,88 +233,138 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Footer */ 
-
-.hofooter{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: slategrey;
-    padding-left: 30%;
-    padding-right: 30%;
+h4{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Norse', sans-serif;
 }
 
-.footercontainer{
-    color: aqua;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 50px;
-    padding-right: 50px;
+.footer {
+    background-color:#1F1F1F;
+<<<<<<< HEAD
+	margin-top: 100px;
+=======
+
+>>>>>>> d8d25584405e89dc8a74f152e8e41bb648d71bac
+    color: menu;
+    height: 400px;
+    position: relative;
+    margin-top: -50px;
+    text-align: center;
+}
+ .footer .footlinks {
+
+height: 350px;
+/*height:228px; */
+display:flex;
+
 }
 
-.rowfooter{
+ .footer .footlinks .footer-section {
+        flex: 1;
+        padding:25px;
+
+    }
+
+     .footer .footlinks h1, .footer .footlinks h2 {
+        color:#621818;
+        font-family:norse;
+        font-size:30px;
+    }
+     .footer .footlinks .footer-section .informationcontact span {
+        display: block;
+        font-size: 1.2em;
+        margin-bottom:10px;
+         color: white;
+        /* margin-bottom: -30px;*/
+    }
+    /*SoMe icons       */
+
+    .footer .footlinks .footer-section .SoMe a{
+
+       width: 5%;
+       height:5%;
+       padding-top: 10%;
+      padding-left:18%;
+       margin-right: 5%;
+       text-align: left;
+       display:inline-block;
+       font-size:1.3em;
+
+       color:white;
+    }
+        .footer .footlinks .footer-section .SoMe a:hover {
+            color: #621818;
+        }
+
+
+    /*Update section*/
+    .footer .footlinks .updates h2 {
+        text-align:center;
+        margin-bottom:-20px;
+    }
+    .footer .footlinks .updates ul {
+        list-style: none;
+    }
+    .footer .footlinks .updates ul a {
+        display: block;
+        text-align: center;
+        color: white;
+        margin-bottom: 1em;
+        font-size: 1.2em;
+
+        text-decoration: none;
+        transition: all .3s;
+        margin-left:-30px;
+    }
+         .footer .footlinks .updates ul a:hover {
+            font-size: 1.5em;
+            margin-left: 15px;
+            transition: all .3s;
+        }
+
+     .footer .footlinks .contact .emailinput {
+        background: #3F3838;
+        margin-bottom: 10px;
+        line-height: 1.5em;
+        padding: 1.1em 1.4em;
+        width: 80%;
+        border: none;
+        border-radius: 20px;
+    }
+       .footer .footlinks .contact .emailinput:hover {
+            background: white;
+        }
+
+.emailbutton {
+    padding: .5rem 1rem;
+    background-color:#621818;
+    color: white;
+    border: none;
+    border-radius: .25rem;
+    margin-left: 8%;
+    transition: all .3s;
+}
+        .emailbutton:hover{
+            transform:scale(1.2);
+            transition: all .3s;
+
+
+        }
+
+.footer .copyright {
+    background: #1F1F1F;
+    color: #D2D0D0;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.kontaktos{
     color: white;
 }
-
-.footercon1{
-    font-size: 30px;
-    float: left;
-    margin: 20px;
-}
-
-.footercon2{
-    font-size: 30px;
-    float: left;
-    margin: 20px;
-}
-
-.footercon3{
-    font-size: 30px;
-    float: left;
-    margin: 20px;
-
-}
-
-.hofooterul{
-    list-style-type: none;
-}
-
-.hofooter a  {
-    color: white;
-    text-decoration: none;
-}
-
-.hofooter a:hover{
-    border-bottom: 2px solid white;
-}
-
-.footercopytekst{
-    color: white;
-    background-color: dimgrey;
-}
-
-.fohotext{
-    padding-left: 5px; 
-}
-
-

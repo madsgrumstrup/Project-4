@@ -83,24 +83,26 @@
 
 }
 
-.topimg img{
-    background-image: url(../images/hut4.png);
+.topimg{
+    background-image: url("../images/bagjern.png");
     width: 100%;
-    height: auto;
-    margin-top: -150px;
-    margin-left: -5px;
+    height: 990px;
+	background-repeat: no-repeat;
+   
 }
 
 
 .bookcalendertop {
-    float: right;
+    display: flex;
+	align-content: flex-end;
     padding-right: 104px;
 }
 
 .bookcalendertop h1 {
 	text-align: center;
 	margin: 150px 0px;
-	color: #1E1E1E;
+	margin-left: 34%;
+	color: #FFFFFF;
 	font-size: 42px;
 	font-weight: 400;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
@@ -113,12 +115,14 @@
 }
 
 .vdato {
-	position: relative;
+	
+	position: absolute;
 	background-color: #830A0A;
 	height: 60px;
 	width: 50%;
 	max-width: 350%;
-	margin: -140px auto;
+	margin: 250px auto;
+	margin-left: 25%;  
 	box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
 	cursor: pointer;
 	user-select:none;
@@ -222,11 +226,9 @@
 
 .footer {
     background-color:#1F1F1F;
-<<<<<<< HEAD
-	margin-top: 100px;
-=======
 
->>>>>>> d8d25584405e89dc8a74f152e8e41bb648d71bac
+	margin-top: 100px;
+
     color: menu;
     height: 400px;
     position: relative;

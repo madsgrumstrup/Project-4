@@ -215,6 +215,7 @@ body {
 	font-family: Norse;
     padding-left: 2%;
     text-align: center;
+	
 }
 
 .infomation1 .infobox1 .textboxinfo h3 {
@@ -229,7 +230,7 @@ body {
 .infomation1 .infobox1 .textboxinfo a {
     position: inherit;
     font-weight: 400px;
-    font-size: 30px;
+    font-size: 1.5vw;
     color:#FFFFFF;
 	text-align: center;
 	opacity: 0.2;
@@ -304,7 +305,7 @@ body {
 .infomation2 .infobox2 .textboxinfo2 a {
     position: inherit;
        font-weight: 400px;
-    font-size: 30px;
+   font-size: 1.5vw;
     color:#FFFFFF;
 	text-align: center;
 	opacity: 0.2;
@@ -378,7 +379,7 @@ body {
 .infomation3 .infobox3 .textboxinfo3 a {
     position: inherit;
        font-weight: 400px;
-    font-size: 30px;
+    font-size: 1.5vw;
     color:#FFFFFF;
 	text-align: center;
 	opacity: 0.2;
@@ -451,7 +452,7 @@ body {
 .infomation4 .infobox4 .textboxinfo4 a {
     position: inherit;
        font-weight: 400px;
-    font-size: 30px;
+    font-size: 1.5vw;
     color:#FFFFFF;
 	text-align: center;
 	opacity: 0.2;

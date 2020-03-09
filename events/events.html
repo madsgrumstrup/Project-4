@@ -8,7 +8,88 @@
     <link rel="stylesheet" href="event.css">
     <script src="https://kit.fontawesome.com/1f805a81df.js" crossorigin="anonymous"></script>
     <title>Event</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+  window.addEventListener("scroll", function() {
+      if (window.scrollY > 1) {
+          $('.navbar').fadeOut();
+      }
+      else {
+          $('.navbar').fadeIn();
+      }
+  },false);
+      </script>
   </head>
+  <div class="navbar">
+      <img src="../images/logohvid.png" class="logo">
+      <a class="logolink" href="index2.html"></a>
+      <a href="#forside">DK</a>
+      <a href="#forside">EN</a>
+      <div class="dropdown">
+          <button class="dropbtn">Projekter
+              <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a href="#">kend dit land 2019</a>
+              <a href="#">Projekt generattionsspagt</a>
+              <a href="#">Projekt minibog</a>
+              <a href="#">Vi er med i "kend dit land"</a>
+              <a href="#">Projekt buebane</a>
+          </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn">Sponsorer
+              <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a href="#">Nuværende sponsore</a>
+              <a href="#">Samarbejderspartner</a>
+              <a href="#">Sponsor skindlanden</a>
+          </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn">Medlemmer
+              <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a href="#">Medlemmer log på</a>
+              <a href="#">Tilmeldning af aktiviter</a>
+          </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn">Skoletjeneste
+              <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a href="#">Læringsforløb</a>
+              <a href="#">Vejledning til besøg</a>
+              <a href="#">Prisliste</a>
+              <a href="#">Book besøg</a>
+              <a href="#">Privatlivspolitik</a>
+          </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn">Events
+              <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a href="#">Planlæsning for 2020</a>
+              <a href="#">Kalender</a>
+          </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn">Besøg OdinsOdense
+              <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a href="#">Jernalderferie 2020</a>
+              <a href="#">Liv i jernalderen</a>
+              <a href="#">Jernalder tidslinje</a>
+              <a href="#">Rundvisning for grupper</a>
+          </div>
+      </div>
+      <a href="#forside">Forside</a>
+  </div>
   <body>
       <div class="bg1">
         <div class="box1">

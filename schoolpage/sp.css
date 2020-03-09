@@ -13,20 +13,26 @@ body {
 /*navbar*/
 .navbar {
     overflow: hidden;
-    background: linear-gradient(to bottom, rgba(4,4,4,0.65) 23%,rgba(0,0,0,0.09) 89%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.09) 89%,rgba(0,0,0,0) 100%);
     position: fixed;
-    padding-right: 37px;
+    padding-right: 42.33px;
     padding-top: 15px;
+
 }
 
 .navbar a {
     float: right;
     font-size: 1vw;
-    color: #830a0a;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     margin-top: 1.5%;
+
+}
+
+.navbar a:hover {
+    border-bottom: 0px solid white;
 }
 
 .dropdown {
@@ -35,14 +41,18 @@ body {
     margin-top: 1.5%;
 }
 
+
 .dropdown .dropbtn {
     font-size: 1vw;
     border: none;
     outline: none;
-    color: #830a0a;
+    color: white;
     padding: 14px 16px;
+    background-color: inherit;
     font-family: inherit;
     margin: 0;
+
+
 }
 
 .dropdown-content {
@@ -51,11 +61,12 @@ body {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .dropdown-content a {
     float: none;
-    color: #3e4e32;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -65,6 +76,7 @@ body {
 .dropdown-content a:hover {
     border-bottom: 2px solid white;
     background-color: #;
+
 }
 
 
@@ -72,11 +84,11 @@ body {
     display: block;
 }
 
-.logo{
-    width: 12%;
-    margin: 12px;
+.logo {
+    width: 6%;
+    margin: 7px;
     position: relative;
-    padding-left: 1.5vw;
+    padding-left: 30px;
 }
 
 /* GLOBAL CSS SLUT */

@@ -13,12 +13,22 @@
 <meta charset="utf-8">
 	<link href="cssvisitpage.css" rel="stylesheet" type="text/css">
 <title>Visit page</title>
-
+<script>
+  window.addEventListener("scroll", function() {
+      if (window.scrollY > 1) {
+          $('.navbar').fadeOut();
+      }
+      else {
+          $('.navbar').fadeIn();
+      }
+  },false);
+      </script>
 </head>
 <body>
     
 <!---navigation-->
-<div class="navbar">
+
+  <div class="navbar">
       <img src="../images/logohvid.png" class="logo">
       <a class="logolink" href="../Forside_index/index.html"></a>
       <a href="#forside">DK</a>
@@ -73,7 +83,7 @@
           </button>
           <div class="dropdown-content">
               <a href="../visitpage/visitpage.html">Besøg os</a>
-              <a href="#">Liv i jernalderen</a>
+              <a href="../aboutironage/Omjernalderen.html">Liv i jernalderen</a>
               <a href="#">Jernalder tidslinje</a>
               <a href="#">Rundvisning for grupper</a>
           </div>
@@ -123,10 +133,10 @@
                         <span> <i class="fas fa-phone"></i> &nbsp;   +45 28 12 91 50</span>
                     </div>
                     <div class="SoMe">
-                        <a href="https://www.facebook.com/mads.grumstrup.7"><i class="fab fa-facebook-square"></i></a>
-                        <a href="https://www.linkedin.com/in/mads-grumstrup-0bb89b168/"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/madzzzi/?hl=en"><i class="fab fa-instagram"></i></a>
-                    </div>
+                            <a href="https://www.facebook.com/pages/Jernalderlandsbyen/345955806140402" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.youtube.com/channel/UCOnGB_ItWOksHuPkza_Wy5w?view_as=subscriber "target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/odins_odense/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
                 </div>
                 <div class="footer-section updates">
                     <h2>Planlæg dit besøg</h2>

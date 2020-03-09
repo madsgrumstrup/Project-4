@@ -83,17 +83,12 @@
     
 }
 
-.topimg {
-    padding-top: 132px;
-}
-
 .topimg img{
-    width: 432px;
+    background-image: url(../images/hut4.png);
+    width: 100%;
     height: auto;
-    left: 0;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+    margin-top: -150px;
+    margin-left: -5px;
 }
 
 
@@ -227,11 +222,11 @@
 
 .footer {
     background-color:#1F1F1F;
-	
+	margin-top: 100px;
     color: menu;
     height: 400px;
     position: relative;
-    margin-top: 100px;
+    margin-top: -50px;
     text-align: center;
 }
  .footer .footlinks {

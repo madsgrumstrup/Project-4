@@ -146,6 +146,10 @@ body {
     border: 0.2vw solid black;
     color: black;
 }
+#myVideo {
+	width: 100%;
+	height: auto;
+}
 
 /* Alt over er forsidebillede alt under er info */
 

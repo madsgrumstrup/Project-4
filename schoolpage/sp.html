@@ -4,20 +4,32 @@
 <head>
 <meta charset="UTF-8">
 <meta name="author" content="John Patrick Rasmussen">
-<script src="https://kit.fontawesome.com/1f805a81df.js" crossorigin="anonymous"></script> 
+<script src="https://kit.fontawesome.com/1f805a81df.js" crossorigin="anonymous"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>OdinsOdense | Skoletjenesten</title>
 <link href="sp.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script>
+window.addEventListener("scroll", function() {
+    if (window.scrollY > 1) {
+        $('.navbar').fadeOut();
+    }
+    else {
+        $('.navbar').fadeIn();
+    }
+},false);
+    </script>
+</head>
 <div class="navbar">
-    <img src="../images/logo.png" class="logo">
+    <img src="../images/logohvid.png" class="logo">
     <a class="logolink" href="index2.html"></a>
     <a href="#forside">DK</a>
     <a href="#forside">EN</a>
     <div class="dropdown">
-        <button class="dropbtn">Projekter&nabla;
+        <button class="dropbtn">Projekter
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
@@ -29,7 +41,7 @@
         </div>
     </div>
     <div class="dropdown">
-        <button class="dropbtn">Sponsorer&nabla;
+        <button class="dropbtn">Sponsorer
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
@@ -39,7 +51,7 @@
         </div>
     </div>
     <div class="dropdown">
-        <button class="dropbtn">Medlemmer&nabla;
+        <button class="dropbtn">Medlemmer
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
@@ -48,7 +60,7 @@
         </div>
     </div>
     <div class="dropdown">
-        <button class="dropbtn">Skoletjeneste&nabla;
+        <button class="dropbtn">Skoletjeneste
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
@@ -60,7 +72,7 @@
         </div>
     </div>
     <div class="dropdown">
-        <button class="dropbtn">Events&nabla;
+        <button class="dropbtn">Events
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
@@ -69,7 +81,7 @@
         </div>
     </div>
     <div class="dropdown">
-        <button class="dropbtn">Besøg OdinsOdense&nabla;
+        <button class="dropbtn">Besøg OdinsOdense
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">

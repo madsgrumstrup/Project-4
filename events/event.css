@@ -162,7 +162,7 @@ background-size: cover;
         color: menu;
         height: 400px;
         position: relative;
-        margin-top: 100px;
+        margin-top: 20px;
         text-align: center;
     }
      .footer .footlinks {
@@ -272,6 +272,6 @@ background-size: cover;
         position: absolute;
         bottom: 0px;
         left: 0px;
-        padding-top: 20px;
+        padding-top: 10px;
         width: 100%;
     }

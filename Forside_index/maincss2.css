@@ -108,7 +108,10 @@ body {
     height: 50%;
     display: block;
 }
-
+.hoforsidebilledecon {
+	display: flex;
+	align-content: flex-start;
+}
 .hooverskrift{
     position: absolute;
     top: 15vw;
@@ -123,7 +126,7 @@ body {
 }
 
 .hop{
-    font-size: 12px;
+    font-size: 0.8vw;
     padding-top: 1.5vw;
     padding-right: 700px;
 }
@@ -159,8 +162,8 @@ body {
     z-index: 1;
     position: inherit;
     overflow: hidden;
-    margin-top: -4px;
-	margin-left: 1%;
+    margin-top: -10px;
+	
 	
 }
 
@@ -208,14 +211,14 @@ body {
 }
 
 .infomation1 .infobox1 .textboxinfo span {
-    font-size: 55px;
+    font-size: 3vw;
 	font-family: Norse;
     padding-left: 2%;
     text-align: center;
 }
 
 .infomation1 .infobox1 .textboxinfo h3 {
-    font-size: 16px;
+    font-size: 0.8vw;
     font-weight:400;
     padding-right: 10%;
     padding-left: 10%;
@@ -283,14 +286,14 @@ body {
 }
 
 .infomation2 .infobox2 .textboxinfo2 span {
-    font-size: 55px;
+    font-size: 3vw;
 	font-family: Norse;
     padding-left: 2%;
     text-align: center;
 }
 
 .infomation2 .infobox2 .textboxinfo2 h3 {
-    font-size: 16px;
+    font-size: 0.8vw;
     font-weight:400;
     padding-right: 10%;
     padding-left: 10%;
@@ -357,14 +360,14 @@ body {
 }
 
 .infomation3 .infobox3 .textboxinfo3 span {
-    font-size: 55px;
+    font-size: 3vw;
 	font-family: Norse;
     padding-left: 2%;
     text-align: center;
 }
 
 .infomation3 .infobox3 .textboxinfo3 h3 {
-    font-size: 14px;
+     font-size: 0.8vw;
     font-weight:400;
     padding-right: 10%;
     padding-left: 10%;
@@ -430,14 +433,14 @@ body {
 }
 
 .infomation4 .infobox4 .textboxinfo4 span {
-    font-size: 55px;
+    font-size: 3vw;
 	font-family: Norse;
     padding-left: 2%;
     text-align: center;
 }
 
 .infomation4 .infobox4 .textboxinfo4 h3 {
-    font-size: 16px;
+    font-size: 0.8vw;
     font-weight:400;
     padding-right: 10%;
     padding-left: 10%;
@@ -485,11 +488,11 @@ h4{
 }
 .footer {
     background-color:#1F1F1F;
-	width:  101%;
+	width:  100%;
     color:#FFFFFF;
     height: 400px;
     position: relative;
-    margin-top: -50px;
+    
     text-align: center;
 }
  .footer .footlinks {

@@ -107,6 +107,8 @@ body {
 .baggrund1{
   display: flex;
   flex-direction: row;
+  padding: 10px;
+  margin: 0px;
   background-color: rgb(230, 230, 230);
   align-items: center;
   justify-content: center;

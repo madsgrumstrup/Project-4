@@ -337,7 +337,7 @@ background-size: cover;
           width: 100%;
           border: none;
           border-radius: 20px;
-      }
+          }
          .footer .footlinks .contact .emailinput:hover {
               background: white;
           }

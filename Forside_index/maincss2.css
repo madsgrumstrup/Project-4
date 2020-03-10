@@ -76,8 +76,6 @@ body {
 
 .dropdown-content a:hover {
     border-bottom: 2px solid white;
-    background-color: #;
-    
 }
 
 
@@ -234,7 +232,7 @@ body {
 
 .infomation1 .infobox1 .textboxinfo a {
     position: inherit;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 1.5vw;
     color:#FFFFFF;
 	text-align: center;
@@ -300,7 +298,7 @@ body {
 
 .infomation2 .infobox2 .textboxinfo2 h3 {
     font-size: 0.8vw;
-    font-weight:400;
+    font-weight: 400;
     padding-right: 10%;
     padding-left: 10%;
     text-align: center;
@@ -309,8 +307,8 @@ body {
 
 .infomation2 .infobox2 .textboxinfo2 a {
     position: inherit;
-       font-weight: 400px;
-   font-size: 1.5vw;
+    font-weight: 400;
+    font-size: 1.5vw;
     color:#FFFFFF;
 	text-align: center;
 	opacity: 0.2;
@@ -373,8 +371,8 @@ body {
 }
 
 .infomation3 .infobox3 .textboxinfo3 h3 {
-     font-size: 0.8vw;
-    font-weight:400;
+    font-size: 0.8vw;
+    font-weight: 400;
     padding-right: 10%;
     padding-left: 10%;
     text-align: center;
@@ -383,7 +381,7 @@ body {
 
 .infomation3 .infobox3 .textboxinfo3 a {
     position: inherit;
-       font-weight: 400px;
+    font-weight: 400;
     font-size: 1.5vw;
     color:#FFFFFF;
 	text-align: center;
@@ -447,7 +445,7 @@ body {
 
 .infomation4 .infobox4 .textboxinfo4 h3 {
     font-size: 0.8vw;
-    font-weight:400;
+    font-weight: 400;
     padding-right: 10%;
     padding-left: 10%;
     text-align: center;
@@ -456,7 +454,7 @@ body {
 
 .infomation4 .infobox4 .textboxinfo4 a {
     position: inherit;
-       font-weight: 400px;
+    font-weight: 400;
     font-size: 1.5vw;
     color:#FFFFFF;
 	text-align: center;

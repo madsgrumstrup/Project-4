@@ -68,8 +68,6 @@
 
 .dropdown-content a:hover {
     border-bottom: 2px solid white;
-    background-color: #;
-    
 }
 
 
@@ -139,9 +137,6 @@
     padding-left: 24px;
 }
 
-{
-  box-sizing: border-box;
-}
 
   hr { 
     display: block;

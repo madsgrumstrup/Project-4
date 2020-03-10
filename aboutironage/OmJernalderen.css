@@ -9,6 +9,7 @@
     position: fixed;
     padding-right: 42.33px;
     padding-top: 15px;
+	z-index: 1;
     
 }
 
@@ -83,7 +84,7 @@
     padding-left: 30px;
 }
 
-/*navbar slut*/
+
 .forsidebillede{
     margin: auto;
     position:inherit;
@@ -99,6 +100,7 @@
     height: 50%;
     display: block;
 }
+/*navbar slut*/
 /* CSS Document */
 
 .info-text-padding h1 {

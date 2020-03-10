@@ -1,14 +1,14 @@
+@font-face {
+	src:url("../font/Norse.otf");
+	font-family: Norse;
+}
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 //* https://www.colorzilla.com/gradient-editor/ *//
 
-body {
-    font-family: Tahoma, sans-serif;
-}
 
 /*navbar*/
 .navbar {
@@ -29,6 +29,9 @@ body {
     text-decoration: none;
     margin-top: 1.5%;
 
+}
+h2 {
+  font-family: 'Norse', sans-serif;
 }
 
 .navbar a:hover {
@@ -97,7 +100,6 @@ body {
 }
 
 .logolink{
-
     position: absolute;
     top: 0;
     left: 2%;
@@ -113,8 +115,6 @@ body {
   display: flex;
   flex-direction: row;
   background-color: #ffffff;
-  align-items: left;
-  justify-content: left;
 }
 
 .baggrund1{
@@ -128,15 +128,16 @@ body {
 }
 
 
-.billedetektstilbillederneh1 h1{
+.billedetektstilbillederneh1 h2{
   text-align: center;
-
+  font-size: 40px;
+  font-family: 'Norse', sans-serif;
   color: #830a0a
 }
 
 
 .billedetektstilbilledernep p{
-
+  font-size: 15px;
   text-align: left;
   color: #030303;
 }
@@ -153,7 +154,8 @@ body {
 
 .billedetekstiltoppenp p{
   text-align: left;
-  font-size: 25px;
+  font-size: 15px;
+  padding-left: 20px;
   font-family: Tahoma;
   color: #030303
 
@@ -163,7 +165,7 @@ body {
 .billedetekstiltoppenh1 h1{
   text-align: center;
 	font-family: 'Norse',sans-serif;
-  font-size: 45px;
+  font-size: 15px;
   color: #830a0a
 }
 

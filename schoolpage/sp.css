@@ -8,17 +8,16 @@
 
 body {
     font-family: Tahoma, sans-serif;
-    background-color: white;
 }
 
 /*navbar*/
 .navbar {
     overflow: hidden;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.09) 89%,rgba(0,0,0,0) 100%); 
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.09) 89%,rgba(0,0,0,0) 100%);
     position: fixed;
     padding-right: 42.33px;
     padding-top: 15px;
-    
+
 }
 
 .navbar a {
@@ -29,7 +28,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     margin-top: 1.5%;
-    
+
 }
 
 .navbar a:hover {
@@ -44,7 +43,7 @@ body {
 
 
 .dropdown .dropbtn {
-    font-size: 13px;  
+    font-size: 13px;
     border: none;
     outline: none;
     color: white;
@@ -52,9 +51,9 @@ body {
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-    
-    
-}      
+
+
+}
 
 .dropdown-content {
     display: none;
@@ -76,8 +75,6 @@ body {
 
 .dropdown-content a:hover {
     border-bottom: 2px solid white;
-    background-color: #;
-    
 }
 
 
@@ -100,7 +97,7 @@ body {
 }
 
 .logolink{
-    
+
     position: absolute;
     top: 0;
     left: 2%;
@@ -133,13 +130,13 @@ body {
 
 .billedetektstilbillederneh1 h1{
   text-align: center;
-	
+
   color: #830a0a
 }
 
 
 .billedetektstilbilledernep p{
-	
+
   text-align: left;
   color: #030303;
 }

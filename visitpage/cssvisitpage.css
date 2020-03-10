@@ -8,7 +8,6 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
 }
 /*navbar*/
 .navbar {
@@ -75,8 +74,6 @@ body {
 
 .dropdown-content a:hover {
     border-bottom: 2px solid white;
-    background-color: #;
-    
 }
 
 
